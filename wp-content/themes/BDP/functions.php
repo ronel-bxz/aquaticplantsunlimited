@@ -211,3 +211,97 @@ function wc_minimum_order_amount() {
         }
     }
 }
+
+/**
+ * Adds a new column to the "My Orders" table in the account.
+ *
+ * @param string[] $columns the columns in the orders table
+ * @return string[] updated columns
+ */
+function sv_wc_add_my_account_orders_column( $columns ) {
+
+    $new_columns = array();
+
+    foreach ( $columns as $key => $name ) {
+
+        $new_columns[ $key ] = $name;
+
+        // add ship-to after order status column
+        if ( 'order-actions' === $key ) {
+            $new_columns['ref-number'] = __( 'Reference number', 'textdomain' );
+        }
+    }
+
+    return $new_columns;
+}
+add_filter( 'woocommerce_my_account_my_orders_columns', 'sv_wc_add_my_account_orders_column' );
+
+
+
+
+/**
+ * @snippet       Add Column to Orders Table (e.g. Billing Country) - WooCommerce
+ * @how-to        Watch tutorial @ https://businessbloomer.com/?p=19055
+ * @sourcecode    https://businessbloomer.com/?p=78723
+ * @author        Rodolfo Melogli
+ * @compatible    WooCommerce 3.4.5
+ */
+
+function remittances($orderid){
+		global $wpdb;
+		$test=$wpdb->get_results("SELECT * FROM remittance WHERE order_id='$orderid'",ARRAY_A);
+		return $test;
+}
+
+///////////////////////////////////////////////////////payment method number//////////////////////////
+
+add_filter( 'manage_edit-shop_order_columns', 'bbloomer_add_new_order_admin_list_column2' );
+ 
+function bbloomer_add_new_order_admin_list_column2( $columns ) {
+    $columns['payment_method'] = 'Payment method';
+    return $columns;
+}
+
+add_action( 'manage_shop_order_posts_custom_column', 'bbloomer_add_new_order_admin_list_column_content2' );
+ 
+function bbloomer_add_new_order_admin_list_column_content2( $column ) {
+   
+    global $post;
+ 
+    if ( 'payment_method' === $column ) {
+        $order = wc_get_order( $post->ID );
+         echo $order->get_payment_method();
+    }
+}
+ 
+
+///////////////////////////////////////////////////////refrenece number//////////////////////////
+
+add_filter( 'manage_edit-shop_order_columns', 'bbloomer_add_new_order_admin_list_column' );
+ 
+function bbloomer_add_new_order_admin_list_column( $columns ) {
+    $columns['reference_number'] = 'Reference number';
+    return $columns;
+}
+ 
+add_action( 'manage_shop_order_posts_custom_column', 'bbloomer_add_new_order_admin_list_column_content' );
+ 
+function bbloomer_add_new_order_admin_list_column_content( $column ) {
+   
+    global $post;
+ 
+    if ( 'reference_number' === $column ) {
+        $order = wc_get_order( $post->ID );
+        $rn=remittances($order->get_order_number());
+        if ($rn) {
+			echo $rn[0]['reference_number'];
+        }
+        else{
+        	echo "None";
+        }
+      	
+    }
+}
+
+
+

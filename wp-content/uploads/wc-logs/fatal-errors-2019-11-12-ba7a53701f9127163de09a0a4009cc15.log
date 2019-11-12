@@ -1,0 +1,275 @@
+2019-11-12T02:59:05+00:00 CRITICAL syntax error, unexpected ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 90
+
+2019-11-12T02:59:09+00:00 CRITICAL syntax error, unexpected ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 90
+
+2019-11-12T02:59:19+00:00 CRITICAL syntax error, unexpected ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 90
+
+2019-11-12T02:59:37+00:00 CRITICAL syntax error, unexpected ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 90
+
+2019-11-12T02:59:41+00:00 CRITICAL syntax error, unexpected ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 90
+
+2019-11-12T03:07:03+00:00 CRITICAL Uncaught Error: Call to a member function payment_gateways() on string in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php:47
+Stack trace:
+#0 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3066): wc_get_template('myaccount/order...', Array)
+#2 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/class-wp-hook.php(286): woocommerce_account_orders(1)
+#3 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3015): do_action in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 47
+
+2019-11-12T03:19:37+00:00 CRITICAL syntax error, unexpected '?>', expecting ':' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 90
+
+2019-11-12T03:19:40+00:00 CRITICAL syntax error, unexpected '?>', expecting ':' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 90
+
+2019-11-12T03:19:50+00:00 CRITICAL syntax error, unexpected ';', expecting ':' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 90
+
+2019-11-12T03:40:39+00:00 CRITICAL Uncaught Error: Call to undefined function mfn_user_os() in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/header.php:15
+Stack trace:
+#0 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template.php(722): require_once()
+#1 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template.php(671): load_template('/home/dh_q9dhaa...', true)
+#2 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/page.php(10): get_header()
+#4 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template-loader.php(78): include('/home/dh_q9dhaa...')
+#5 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-blog-header.php(19): require_once('/home/dh_q9dhaa...')
+#6 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/index.php(17): require('/home/dh_q9dhaa...')
+#7 {main}
+  thrown in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/header.php on line 15
+
+2019-11-12T03:41:24+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 220
+
+2019-11-12T03:41:24+00:00 CRITICAL Uncaught Error: Call to undefined function mfn_user_os() in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/header.php:15
+Stack trace:
+#0 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template.php(722): require_once()
+#1 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template.php(671): load_template('/home/dh_q9dhaa...', true)
+#2 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/page.php(10): get_header()
+#4 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template-loader.php(78): include('/home/dh_q9dhaa...')
+#5 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-blog-header.php(19): require_once('/home/dh_q9dhaa...')
+#6 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/index.php(17): require('/home/dh_q9dhaa...')
+#7 {main}
+  thrown in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/header.php on line 15
+
+2019-11-12T03:41:27+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 220
+
+2019-11-12T03:41:29+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 220
+
+2019-11-12T03:50:13+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:50:39+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:51:40+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:52:14+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:53:04+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:53:16+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:53:38+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:53:40+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:53:46+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:54:04+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:54:06+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:54:14+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:54:27+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:54:29+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:55:33+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:55:41+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:56:03+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:56:16+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:57:00+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:57:38+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:57:43+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:58:09+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:58:16+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:58:37+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:58:39+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:58:58+00:00 CRITICAL Uncaught Error: Call to undefined function mfn_user_os() in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/header.php:15
+Stack trace:
+#0 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template.php(722): require_once()
+#1 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template.php(671): load_template('/home/dh_q9dhaa...', true)
+#2 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/page.php(10): get_header()
+#4 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/template-loader.php(78): include('/home/dh_q9dhaa...')
+#5 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-blog-header.php(19): require_once('/home/dh_q9dhaa...')
+#6 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/index.php(17): require('/home/dh_q9dhaa...')
+#7 {main}
+  thrown in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/header.php on line 15
+
+2019-11-12T03:58:59+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T03:59:01+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 241
+
+2019-11-12T04:04:57+00:00 CRITICAL syntax error, unexpected ''vc_before_in' (T_ENCAPSED_AND_WHITESPACE) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 173
+
+2019-11-12T04:19:09+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 26
+
+2019-11-12T04:19:12+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 26
+
+2019-11-12T04:19:52+00:00 CRITICAL syntax error, unexpected '}', expecting ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 34
+
+2019-11-12T04:19:55+00:00 CRITICAL syntax error, unexpected '}', expecting ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 34
+
+2019-11-12T04:20:13+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 26
+
+2019-11-12T04:20:54+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 26
+
+2019-11-12T04:57:44+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 26
+
+2019-11-12T04:58:11+00:00 CRITICAL syntax error, unexpected ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 27
+
+2019-11-12T04:58:33+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 26
+
+2019-11-12T04:58:37+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 26
+
+2019-11-12T05:03:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::prepare(), 1 passed in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 29 and exactly 2 expected in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/wp-db.php:1295
+Stack trace:
+#0 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php(29): wpdb->prepare('UPDATE remittan...')
+#1 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/dh_q9dhaa...')
+#2 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3066): wc_get_template('myaccount/order...', Array)
+#3 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/class-wp-hook.php(286): woocommerce_account_orders(1)
+#4 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/class-w in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/wp-db.php on line 1295
+
+2019-11-12T05:08:21+00:00 CRITICAL syntax error, unexpected ',' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 28
+
+2019-11-12T05:09:08+00:00 CRITICAL syntax error, unexpected '}' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 31
+
+2019-11-12T05:18:06+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 42
+
+2019-11-12T05:18:26+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 42
+
+2019-11-12T05:24:00+00:00 CRITICAL syntax error, unexpected 'order_id' (T_STRING), expecting ',' or ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 47
+
+2019-11-12T05:25:46+00:00 CRITICAL Cannot use [] for reading in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 47
+
+2019-11-12T05:25:49+00:00 CRITICAL Cannot use [] for reading in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 47
+
+2019-11-12T05:28:12+00:00 CRITICAL Cannot use [] for reading in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 47
+
+2019-11-12T05:28:14+00:00 CRITICAL Cannot use [] for reading in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 47
+
+2019-11-12T05:46:23+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 122
+
+2019-11-12T05:46:41+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 122
+
+2019-11-12T05:46:47+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 122
+
+2019-11-12T05:48:04+00:00 CRITICAL syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T05:48:07+00:00 CRITICAL syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T05:48:42+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T05:48:45+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T05:49:44+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T05:50:07+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 131
+
+2019-11-12T05:50:10+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 131
+
+2019-11-12T05:50:27+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 131
+
+2019-11-12T05:50:35+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 131
+
+2019-11-12T05:52:04+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T05:52:08+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T05:55:11+00:00 CRITICAL syntax error, unexpected ''">'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 120
+
+2019-11-12T05:55:14+00:00 CRITICAL syntax error, unexpected ''">'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 120
+
+2019-11-12T07:01:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remittance(), 0 passed in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 117 and exactly 1 expected in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php:42
+Stack trace:
+#0 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php(117): remittance()
+#1 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/dh_q9dhaa...')
+#2 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3066): wc_get_template('myaccount/order...', Array)
+#3 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/class-wp-hook.php(286): woocommerce_account_orders(1)
+#4 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/ in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 42
+
+2019-11-12T07:01:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remittance(), 0 passed in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 117 and exactly 1 expected in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php:42
+Stack trace:
+#0 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php(117): remittance()
+#1 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/dh_q9dhaa...')
+#2 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3066): wc_get_template('myaccount/order...', Array)
+#3 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/class-wp-hook.php(286): woocommerce_account_orders(1)
+#4 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/ in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 42
+
+2019-11-12T07:02:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remittance(), 0 passed in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 117 and exactly 1 expected in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php:42
+Stack trace:
+#0 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php(117): remittance()
+#1 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/dh_q9dhaa...')
+#2 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3066): wc_get_template('myaccount/order...', Array)
+#3 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/class-wp-hook.php(286): woocommerce_account_orders(1)
+#4 /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-includes/ in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 42
+
+2019-11-12T07:02:34+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 126
+
+2019-11-12T07:02:38+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 126
+
+2019-11-12T07:02:48+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 126
+
+2019-11-12T07:02:50+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 126
+
+2019-11-12T07:15:45+00:00 CRITICAL syntax error, unexpected ';' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 119
+
+2019-11-12T07:16:48+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T07:16:51+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 121
+
+2019-11-12T07:16:59+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 120
+
+2019-11-12T07:17:31+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 120
+
+2019-11-12T07:26:04+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 244
+
+2019-11-12T07:26:05+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 244
+
+2019-11-12T07:26:06+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 244
+
+2019-11-12T07:26:09+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 244
+
+2019-11-12T07:38:42+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 258
+
+2019-11-12T07:38:44+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 258
+
+2019-11-12T07:41:43+00:00 CRITICAL Cannot redeclare remittance() (previously declared in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php:250) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 46
+
+2019-11-12T07:41:54+00:00 CRITICAL Cannot redeclare remittance() (previously declared in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php:250) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 46
+
+2019-11-12T07:42:13+00:00 CRITICAL Cannot redeclare remittance() (previously declared in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php:250) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 46
+
+2019-11-12T07:42:20+00:00 CRITICAL Cannot redeclare remittance() (previously declared in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php:250) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/woocommerce/myaccount/orders.php on line 46
+
+2019-11-12T07:46:51+00:00 CRITICAL Cannot redeclare bbloomer_add_new_order_admin_list_column() (previously declared in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php:258) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 287
+
+2019-11-12T07:46:56+00:00 CRITICAL Cannot redeclare bbloomer_add_new_order_admin_list_column() (previously declared in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php:258) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 287
+
+2019-11-12T07:47:12+00:00 CRITICAL Cannot redeclare bbloomer_add_new_order_admin_list_column() (previously declared in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php:258) in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 287
+
+2019-11-12T07:48:43+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 312
+
+2019-11-12T07:48:44+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 312
+
+2019-11-12T07:48:46+00:00 CRITICAL syntax error, unexpected end of file in /home/dh_q9dhaa/aquaticplantsunlimited.dreamhosters.com/wp-content/themes/BDP/functions.php on line 312
+
